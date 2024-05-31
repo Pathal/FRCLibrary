@@ -69,7 +69,7 @@ We need to solve the horizontal velocity components now. What's convenient about
 
 So as you can see below, we take the ground distance, divide it by the time value we found earlier to establish the velocity needed to reach that distance in the correct amount of time. Then we can subtract the robots velocity in the same field coordinates to counteract the influence it will have in reality.
 
-$v = \frac{target\_position-current\_position}{t} - current\_velocity$
+$v = \frac{target_{position}-current_{position}}{t} - current_{velocity}$
 
 Tada! In just 4 equations, you have calculated a velocity release vector. Below, you can see the equations put together in python, or the entire python script and demo in [trajectory.py](trajectory.py).
 
