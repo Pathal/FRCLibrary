@@ -57,11 +57,11 @@ One thing you might want to accomplish is launching at a higher target, and guar
 
 By focusing on the velocity at a specific height, you can solve for the time to reach that height since that time value plays two parts. (1) It can be passed into other functions to generate more values, and (2) it can convert translational vectors into linear motion vectors. If you look at the list of 4 equations above, none of them quite fit our needs. But we do have the tools to calculate time via another important step in this process. We can calculate our initial vertical velocity based on gravity, and the vertical distance to rise.
 
-$ v_f^2 = v_0^2 + 2a \Delta x $ &rarr; $ v_0 = \sqrt{v_f^2 - 2a\Delta x} $
+$v_f^2 = v_0^2 + 2a \Delta x$ &rarr; $v_0 = \sqrt{v_f^2 - 2a\Delta x}$
 
 This can then be used in one of the original equations to calculate the time to that velocity.
 
-$ v_f = v_0 + at $ &rarr; $ t = \frac{v_f-v_0}{a} $
+$v_f = v_0 + at$ &rarr; $t = \frac{v_f-v_0}{a}$
 
 That's great! You now have the vertical velocity component for our 3 dimensional launch vector, _AND_ you know how long it will be in the air. The other terms can be deduced to match the units and context.
 
@@ -69,7 +69,7 @@ We need to solve the horizontal velocity components now. What's convenient about
 
 So as you can see below, we take the ground distance, divide it by the time value we found earlier to establish the velocity needed to reach that distance in the correct amount of time. Then we can subtract the robots velocity in the same field coordinates to counteract the influence it will have in reality.
 
-$ v = \frac{target\_position-current\_position}{t} - current\_velocity $
+$v = \frac{target\_position-current\_position}{t} - current\_velocity$
 
 Tada! In just 4 equations, you have calculated a velocity release vector. Below, you can see the equations put together in python, or the entire python script and demo in [trajectory.py](trajectory.py).
 
