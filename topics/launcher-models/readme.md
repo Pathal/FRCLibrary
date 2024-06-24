@@ -115,6 +115,7 @@ $$
 $$
 
 Our horizontal distance equation is relatively straight forward. The time it takes for the projectile to travel horizontal is just the distance traveled divided by the speed.
+
 $$
 \begin{aligned}
 t = d/\hat{x}
