@@ -16,7 +16,7 @@ There's a video from the show Mythbusters that [illustrates this](https://www.yo
 
 That's a really trivial case though, what happens in the more _real world_ environments? Well, the same thing really. Instead of adding single values together, you add multiple ones. See the diagram below, and observe that the x and y values are both going through the same thing.
 
-![Vector Image Not Found.](vectors.png "Pull out a ruler and try it yourself!")
+<p align="center"><img src="vectors.png" alt="Vector Image Not Found." title="Pull out a ruler and try it yourself!" /></p>
 
 Seen here as: _actual = aim+moving_
 
@@ -154,7 +154,7 @@ One issue with the earlier models is that they work well with classical objects.
 
 Gradient Descent is basically just a measurement of slope, and trying to move "downhill".
 
-![2d Gradient Descent](https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Gradient_descent.svg/700px-Gradient_descent.svg.png)
+![2d Gradient Descent](descent.png)
 
 Here you can see a 2d example that looks sort of like a bullseye. If you've ever seen a topological or height map (for instance the lines around a mountain peak on a map) you will see the same effect here. The middle ring is the lowest value, and each ring around it is a "higher point" in the data.
 

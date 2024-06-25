@@ -4,7 +4,8 @@ This is a shared library of moderate to advanced FRC-focused concepts and featur
 
 ## Topics
 
-- Swerve Drive
+- [General Math](topics/math/readme.md)
+- [Swerve Drive](topics/swerve-drive/readme.md)
 - [Dynamic Crop with Limelight](topics/dynamic-crop/readme.md)
 - Transfer Alignment
 - Robot Localization
