@@ -154,7 +154,7 @@ One issue with the earlier models is that they work well with classical objects.
 
 Gradient Descent is basically just a measurement of slope, and trying to move "downhill".
 
-<p align="center"><img src="descent.png" alt="2d Gradient Descent" title="" /></p>
+<p align="center"><img src="descent.png" alt="2d Gradient Descent" title="" style="width: 50%; height: 50%"/></p>
 
 Here you can see a 2d example that looks sort of like a bullseye. If you've ever seen a topological or height map (for instance the lines around a mountain peak on a map) you will see the same effect here. The middle ring is the lowest value, and each ring around it is a "higher point" in the data.
 
