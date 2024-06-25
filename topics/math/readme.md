@@ -41,12 +41,12 @@ Congratulations! You've just stumbled upon the origin of Euler's Method (pronoun
 A vector is an organized set of values. Each position represents a specific dimension, or aspect of the data. For instance, when calculating the slope of a line on a graph, you may take the rise and divide it by the run. This is calculated from $y_2-y_1$ and $x_2-x_1$, right? This also just so happens to describe a vector, as seen below.
 
 $$
-\left\{
+\left \\{
 \begin{array}{l}
 \Delta x \\
 \Delta y
 \end{array}
-\right\}
+\right \\}
 $$
 
 This extends into as many dimensions as you like. Including by 1 dimensional vectors (also called scalars), 3 and 4 element vectors like what are used in robotics and video games, or even 300 element vectors like in machine learning. All of the techniques we will talk about work across any sized vector. A vector is just an organized set of multiple numbers, that's it!
