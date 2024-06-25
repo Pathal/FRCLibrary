@@ -24,7 +24,7 @@ What's great about this shape is that each point on the circle represents a pair
 
 Now lets look at the right triangle. That previous relationship only holds true in a right triangle: a triangle with a 90 degree angle. This is because of the identity property of $1$. When you form the pythagorean equation with a unit circle, you see that $c=1$ and $1=a^2+b^2$. It may not seem like much, but this simple equation opens up a _lot_ of doors.
 
-**Given value of a point on the unit circle, could you calculate the $y$ value if you know the $x$ value is $sin(\pi/6)$?** ($sin()$ is deliberate, keep your answer in terms of $cos()$ or $sin()$ )
+**Given value of a point on the unit circle, could you calculate the $y$ value if you know the $x$ value is $sin(\pi/6)$?** ( $sin()$ is deliberate, keep your answer in terms of $cos()$ or $sin()$ )
 
 ### Arc Length
 
@@ -61,7 +61,7 @@ So we can describe a vector, so what? A lot, actually. Vectors are fundamental t
 
 This is an example of what happens when you add two velocity vectors together: _aim+moving=actual_. If you were to slide the _moving_ vector to the right, so that the tail of it touched the tip of the _aim_ vector, you would see the tip of _moving_ touch the tip of _actual_. So lets look at the numbers then: _aim_ is {2, 0}, _moving_ is {-1, -1}, _actual_ is {1, -1}.
 
-**What is the structure of the equations to produce the correct result?** (Give both vector form, and individual equations for each element)
+**What is the structure of the equations to produce the correct result?** ( Give both vector form, and individual equations for each element )
 
 ### Unit Vectors
 
