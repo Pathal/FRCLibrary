@@ -24,7 +24,7 @@ What's great about this shape is that each point on the circle represents a pair
 
 Now lets look at the right triangle. That previous relationship only holds true in a right triangle: a triangle with a 90 degree angle. This is because of the identity property of $1$. When you form the pythagorean equation with a unit circle, you see that $c=1$ and $1=a^2+b^2$. It may not seem like much, but this simple equation opens up a _lot_ of doors.
 
-**Given value of a point on the unit circle, could you calculate the $y$ value if you know the $x$ value is $sin(\pi/6)$?** ($sin()$ is deliberate, keep your answer in terms of $cos()$ or $sin()$)
+**Given value of a point on the unit circle, could you calculate the $y$ value if you know the $x$ value is $sin(\pi/6)$?** ($sin()$ is deliberate, keep your answer in terms of $cos()$ or $sin()$ )
 
 ### Arc Length
 
