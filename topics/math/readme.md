@@ -59,7 +59,7 @@ So we can describe a vector, so what? A lot, actually. Vectors are fundamental t
 
 <p align="center"><img src="vectors.png" alt="Vectors Image Not Found." title="Take a ruler out and see for yourself!" /></p>
 
-This is an example of what happens when you add two velocity vectors together: $aim+moving=actual$. If you were to slide the $moving$ vector to the right, so that the tail of it touched the tip of the $aim$ vector, you would see the tip of $moving$ touch the tip of $actual$. So lets look at the numbers then: $aim$ is {2, 0}, $moving$ is {-1, -1}, $actual$ is {1, -1}.
+This is an example of what happens when you add two velocity vectors together: _aim+moving=actual_. If you were to slide the _moving_ vector to the right, so that the tail of it touched the tip of the _aim_ vector, you would see the tip of _moving_ touch the tip of _actual_. So lets look at the numbers then: _aim_ is {2, 0}, _moving_ is {-1, -1}, _actual_ is {1, -1}.
 
 **What is the structure of the equations to produce the correct result?** (Give both vector form, and individual equations for each element)
 
