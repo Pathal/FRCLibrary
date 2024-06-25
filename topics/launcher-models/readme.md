@@ -30,7 +30,7 @@ Kinda simple, right?
 
 ## Kinematic Equations
 
-![Parabola Image Not Found.](parabola.png "Note: the origin doesn't really matter.")
+<p align="center"><img src="parabola.png" alt="Parabola Image Not Found." title="Note: the origin doesn't really matter." /></p>
 
 Relative release angles are cool and all, but what happens after the piece is up in the air in free fall? It experiences a different type of motion called a parabolic trajectory. These can be calculated with a series of equations listed below.
 
@@ -103,7 +103,7 @@ Another situation might be launching _over_ something. You aim up high, and figu
 
 So lets assume we're launching at a known max angle, and we know both our height difference, and our ground distance. This means we know the ratio between our vertical and horizontal speeds, and can substitute one for the other. Lets see where this takes us!
 
-![Parabolic-trajectory.png not loaded.](Parabolic-trajectory.png "In this, we have no change in height between the release and target location")
+<p align="center"><img src="Parabolic-trajectory.png" alt="Parabolic-trajectory.png not loaded." title="In this, we have no change in height between the release and target location" /></p>
 
 Lets note the important relationship between the X and Y values of $v_0$.
 
@@ -154,7 +154,7 @@ One issue with the earlier models is that they work well with classical objects.
 
 Gradient Descent is basically just a measurement of slope, and trying to move "downhill".
 
-![2d Gradient Descent](descent.png)
+<p align="center"><img src="descent.png" alt="2d Gradient Descent" title="" /></p>
 
 Here you can see a 2d example that looks sort of like a bullseye. If you've ever seen a topological or height map (for instance the lines around a mountain peak on a map) you will see the same effect here. The middle ring is the lowest value, and each ring around it is a "higher point" in the data.
 
@@ -168,7 +168,7 @@ Robots typically don't function in terms of velocity vectors. We've figured out 
 
 This is the synchronization between a launcher devices's coordinate frame, and the platform's origin. In FRC, we typically don't deal with transfer alignment at the same complexity as professional projects, but the core idea remains. We need to account for the sensor/encoder results, and relate them to the actual position of the launcher mechanism relative to the _inertial frame_ (aka, the robot origin).
 
-![2024 Robot](2024robot.png)
+<p align="center"><img src="2024robot.png" alt="2024 Robot" title="" /></p>
 
 In our 2024 robot design, we used 3 vectors and a few rotations to determine the release point as seen with the blue arrows above.
 
